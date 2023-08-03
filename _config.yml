@@ -102,7 +102,6 @@ theme: hexo-theme-anzhiyu-1.5.1
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: git@github.com:Moooran/Moooran.github.io.git
-  branch: master
-  message: "add a picture"
+  type: git #部署的类型
+  repository: https://github.com/Moooran/Moooran.github.io.git # 仓库地址
+  branch: source #分支名称
